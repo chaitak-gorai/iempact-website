@@ -45,11 +45,12 @@ const TopNavbar = () => {
       <Navbar.Toggle aria-controls='responsive-navbar-nav' />
       <Navbar.Collapse id='responsive-navbar-nav'>
         <Nav className='me-auto'></Nav>
-        <Nav style={{fontWeight:'700'}}>
+        <Nav style={{fontWeight:'700',}}>
           <Nav.Link href='#hero' >Home</Nav.Link>
-          <Nav.Link href='#about' >About Us</Nav.Link>
-          <Nav.Link href='/team'>Team</Nav.Link>
-          <Nav.Link href='/partners'>Partners</Nav.Link>
+          <Nav.Link href='#about' >Discover More</Nav.Link>
+          <Nav.Link href='#partners'>Our Sponsors</Nav.Link>
+          <Nav.Link href='/'>Rule Book</Nav.Link>
+          
           {/* <Nav.Link href='#contact'>Contact</Nav.Link> */}
         </Nav>
 

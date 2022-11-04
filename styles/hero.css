@@ -11,6 +11,9 @@
       height: 150vh;
     }
   }
+ svg{
+  enable-background:new 0 0 580 85;
+ }
   
   #hero .carousel,
   #hero .carousel-inner,
