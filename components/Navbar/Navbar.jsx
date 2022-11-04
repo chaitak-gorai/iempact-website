@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Link from 'next/link'
-import IEMlogo from '../../public/logo/IEM_logo.png'
+import IEMlogo from '../../public/logo/IEM_Logo.png'
 import Image from 'next/image'
 
 import React from 'react'
