@@ -12,7 +12,7 @@ const About = () => {
         <div className="row justify-content-between">
           <div className="col-lg-6 pt-5 pt-lg-0 aboutus">
             <p>
-              IEMPACT, the Annual Cultural Fest of IEM, is back with its 31st
+              IEMPACT, the Annual Cultural Fest of IEM, is back with its 32nd
               edition after 2 years of online lives- education, events. As the
               Annual Cultural Fest of IEM, Saltlake we bring to you dance,
               music, football, quiz, debate, art and most importantly Hope and
