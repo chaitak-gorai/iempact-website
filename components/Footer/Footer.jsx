@@ -2,6 +2,8 @@ import React from 'react'
 import { Instagram, Facebook, Twitter, Envelope,Phone, Linkedin } from 'react-bootstrap-icons';
 import {BsYoutube} from 'react-icons/bs'
 import {GoLocation} from 'react-icons/go'
+import Image from 'next/image';
+import Logo from "../../public/images/IEMPACT.png";
 
 const Footer = () => {
   return (
@@ -13,27 +15,13 @@ const Footer = () => {
               <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                  <h3>Flattern</h3>
-                  <p>
-                    A108 Adam Street <br/>
-                    New York, NY 535022<br/>
-                    United States <br/><br/>
-                    <strong>Phone:</strong> +1 5589 55488 55<br/>
-                    <strong>Email:</strong> info@example.com<br/>
-                  </p>
+                <Image src={Logo} className="img-fluid" alt="" />
                 </div>
 
                 
 
                 <div class="col-lg-4 col-md-6 footer-links">
-                  <h4>Our Services</h4>
-                  <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                  </ul>
+                  <h2>Contact Us</h2>
                 </div>
 
                 <div class="col-lg-5 col-md-6 map">
@@ -48,20 +36,17 @@ const Footer = () => {
           <div class="container d-md-flex py-4">
 
             <div class="me-md-auto text-center text-md-start">
-              <div class="copyright">
-                &copy; Copyright <strong><span>Flattern</span></strong>. All Rights Reserved
-              </div>
-              <div class="credits">
+              <div class="copyright text-center">
+                <b>
+                &copy; Copyright 2022 IEMPACT 2k23 |
                 
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by Team IEMPACT</b>
               </div>
             </div>
             <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="#" className="facebook mx-1" target="_blank" rel="noreferrer"><Facebook size={30}/></a>
-              <a href="#" className="instagram mx-1" target="_blank" rel="noreferrer"><Instagram size={30} /></a>
-              <a href="#" className="linkedin mx-1" target="_blank" rel="noreferrer"><Linkedin size={30}/></a>
-              <a href="#" target="_blank" rel="noreferrer"><BsYoutube size={30}/></a>
-              <a href="#" className="twitter mx-1" target="_blank" rel="noreferrer"><Twitter size={25}/></a>
+            <a href="https://www.facebook.com/iempactfestival" className="facebook mx-1" target="_blank" rel="noreferrer"><Facebook size={30}/></a>
+              <a href="https://instagram.com/iempact2k23?igshid=YmMyMTA2M2Y=" className="instagram mx-1" target="_blank" rel="noreferrer"><Instagram size={30} /></a>
+            
             </div>
           </div>
     </footer>
