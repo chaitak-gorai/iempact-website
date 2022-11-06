@@ -13,8 +13,8 @@ const Events = (event) => {
                 <Image src={IEMPACT} className="img-fluid " alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
-                  <h3>Boating & Fishing</h3>
-                  <p>Drop a Line in the River Laune.</p>
+                  <h3>Event Name</h3>
+                  <p>Event Description</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -27,8 +27,8 @@ const Events = (event) => {
                 <Image src={IEMPACT} className="img-fluid " alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
-                  <h3>Boating & Fishing</h3>
-                  <p>Drop a Line in the River Laune.</p>
+                  <h3>Event Name</h3>
+                  <p>Event Description</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -41,8 +41,8 @@ const Events = (event) => {
                 <Image src={IEMPACT} className="img-fluid " alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
-                  <h3>Boating & Fishing</h3>
-                  <p>Drop a Line in the River Laune.</p>
+                  <h3>Event Name</h3>
+                  <p>Event Description</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -57,8 +57,8 @@ const Events = (event) => {
                 <Image src={IEMPACT} className="img-fluid " alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
-                  <h3>Boating & Fishing</h3>
-                  <p>Drop a Line in the River Laune.</p>
+                  <h3>Event Name</h3>
+                  <p>Event Description</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -71,8 +71,8 @@ const Events = (event) => {
                 <Image src={IEMPACT} className="img-fluid " alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
-                  <h3>Boating & Fishing</h3>
-                  <p>Drop a Line in the River Laune.</p>
+                    <h3>Event Name</h3>
+                  <p>Event Description</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -85,8 +85,8 @@ const Events = (event) => {
                 <Image src={IEMPACT} className="img-fluid " alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
-                  <h3>Boating & Fishing</h3>
-                  <p>Drop a Line in the River Laune.</p>
+                  <h3>Event Name</h3>
+                  <p>Event Description</p>
                 </div>
                 <div className="line inside"></div>
               </div>
