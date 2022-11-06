@@ -1,12 +1,14 @@
 #footer{
-    background-color: #308C09;  
+    background-color: #138808;  
+    
     color: #000;
     font-size: 14px;
   }
   
   #footer .footer-top {
     padding: 25px 0 30px 0;
-    background: #d76b00;
+    background-color: #ff9933;
+  
   }
       
   #footer .footer-top h2 {
