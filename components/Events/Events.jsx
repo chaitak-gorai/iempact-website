@@ -5,7 +5,11 @@ import IEMPACT from "../../public/images/IEMPACT Logo.png";
 const Events = (event) => {
   return (
     <>
+    <section id="events">
       <div className="container">
+      <header className="section-header">
+          <h3>About Us</h3>
+        </header>
         <div className="row">
           <div className="col-lg-4">
             <div id="content">
@@ -95,6 +99,7 @@ const Events = (event) => {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 };
