@@ -4,7 +4,7 @@ import Typed from "react-typed";
 
 const textLines = [
   `The 32ndAnnual Cultural Festival of IEM, Salt-Lake.`,
-  `21st and 22nd of March, 2022.`,
+  `21st and 22nd of March, 2023.`,
   `At IEM Management House.`,
 ];
 
