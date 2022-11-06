@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import Footer from '../components/Footer/Footer'
+import Events from '../components/Events/Events'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Events />
       <Footer/>
     </div>
   )

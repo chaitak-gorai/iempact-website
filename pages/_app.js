@@ -3,6 +3,8 @@ import '../styles/navbar.css'
 import '../styles/hero.css'
 import '../styles/about.css'
 import '../styles/footer.css'
+import '../styles/events.css'
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
