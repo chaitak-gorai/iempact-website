@@ -10,7 +10,7 @@ const Events = (event) => {
           <div className="col-lg-4">
             <div id="content">
               <div className="item e5">
-                <Image src={IEMPACT} className="img-fluid " alt="" />
+                <Image src={IEMPACT} className="img-fluid" alt="" />
                 <div id="e5bk"></div>
                 <div className="text5">
                   <h3>Event Name</h3>
