@@ -1,5 +1,12 @@
 import React from "react";
 import HeroBG from "../../public/images/herobg.jpg";
+import Typed from "react-typed";
+
+const textLines = [
+  `The 32ndAnnual Cultural Festival of IEM, Salt-Lake.`,
+  `21st and 22nd of March, 2022.`,
+  `At IEM Management House.`,
+];
 
 const Hero = () => {
   return (
@@ -31,7 +38,7 @@ const Hero = () => {
                   >
                     {/* <img height="300rem" src="MUN_Logo.png" alt="mun logo" /> */}
                   </h2>
-                  <svg
+                  {/* <svg
                     className="px-5"
                     version="1.1"
                     id="animlogo"
@@ -53,17 +60,27 @@ const Hero = () => {
                         vector-effect="non-scaling-stroke"
                       ></path>
                     </g>
-                  </svg>
-                  <h2 data-aos="fade-up" data-aos-delay="400">
-                    
-                  </h2>
+                  </svg> */}
+                  <h2 data-aos="fade-up" data-aos-delay="400">IEMPACT - 2k23</h2>
 
-                  <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
-                    Register Now
-                  </a>
-                  <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
-                    Discover More
-                  </a>
+                  <div
+                    style={{
+                      fontSize: "30px",
+                      fontFamily: "Roboto Mono",
+                      color: "#fff",
+                    }}
+                  >
+                    <Typed strings={textLines} typeSpeed={30} loop={true} />
+                  </div>
+
+                  <div className="mt-4">
+                    <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
+                      Register Now
+                    </a>
+                    <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
+                      Discover More
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
