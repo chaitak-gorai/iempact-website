@@ -32,7 +32,7 @@ const Hero = () => {
                     {/* <img height="300rem" src="MUN_Logo.png" alt="mun logo" /> */}
                   </h2>
                   <svg
-                    class="px-5"
+                    className="px-5"
                     version="1.1"
                     id="animlogo"
                     xmlns="http://www.w3.org/2000/svg"
