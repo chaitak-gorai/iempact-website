@@ -1,5 +1,5 @@
 import React from "react";
-import IEMPACT from "../../public/images/IEMPACT Logo.png";
+import ABoutIMG from "../../public/images/aboutimg.jpeg";
 import Image from "next/image";
 
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
           </div>
           <div className="col-lg-6 d-flex align-items-center justify-content-center about-img">
             <Image
-              src={IEMPACT}
+              src={ABoutIMG }
               className="img-fluid "
               alt=""
               data-aos="zoom-in"
