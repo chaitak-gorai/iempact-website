@@ -1,6 +1,8 @@
 #call-to-action {
-    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-      url(../public/images/call-to-action-bg.jpg) fixed center center;
+    /* background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+      url(../public/images/call-to-action-bg.jpg) fixed center center; */
+      background: rgb(255,153,51);
+background: linear-gradient(129deg, rgba(255,153,51,1) 13%, rgba(10,137,1,1) 100%);
     background-size: cover;
     padding: 60px 0;
   }
