@@ -61,9 +61,11 @@
   
   #hero h2 {
     color: #fff;
+    
+    font-family: 'Changa', sans-serif;
     margin-bottom: 30px;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 150px;
+    font-weight: 600;
   }
   
   @media (max-width: 768px) {
