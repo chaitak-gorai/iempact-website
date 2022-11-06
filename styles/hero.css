@@ -154,4 +154,5 @@
   #hero .btn-get-started:hover {
     background: #fff;
     color: #18d26e;
+    cursor: pointer;
   }
