@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="carousel-inner" role="listbox">
             <div
               className="carousel-item active"
-              style={{ backgroundImage: "url(./images/herobg.jpg)" }}
+              style={{ backgroundImage: "url(./images/hero1.png)" }}
             >
               <div className="carousel-container">
                 <div className="container">

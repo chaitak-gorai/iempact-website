@@ -9,6 +9,7 @@ import About from '../components/About/About'
 import Footer from '../components/Footer/Footer'
 import Events from '../components/Events/Events'
 import Dates from '../components/Dates/Dates'
+import Sponsors from '../components/Sponsors/Sponsors';
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         <About />
         <Dates/>
         <Events/>
+        <Sponsors/>
         <Footer/>
       </div>
     </>
