@@ -121,4 +121,7 @@
     #footer .abc{
       position: relative;
     }
+    #footer .footer-top {
+      background:url("../public/images/footermob.png");
+    }
   }
