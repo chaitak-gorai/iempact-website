@@ -5,6 +5,7 @@ import '../styles/about.css'
 import '../styles/footer.css'
 import '../styles/dates.css'
 import '../styles/events.css'
+import '../styles/sponsor.css'
 
 
 function MyApp({ Component, pageProps }) {
