@@ -38,9 +38,11 @@ const Sponsors = () => {
                     },
                 }}
                 loop={true}
+                loopFillGroupWithBlank={true}
                 autoplay={{
                   delay: 1500,
                   disableOnInteraction: false,
+                  reverseDirection: true,
                 }}
                 pagination={{
                   dynamicBullets: true,
@@ -54,6 +56,18 @@ const Sponsors = () => {
                 <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
                 <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
                 <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+
+
+
         
               </Swiper>
             </>
