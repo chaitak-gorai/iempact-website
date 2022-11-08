@@ -33,7 +33,7 @@ const Footer = () => {
                   <li>Rijurik Saha: +91 8240786312</li>
                   <li>Aditya Podar: +91 9432280995</li>
                   <li>Souvik Bhattacharyya: +91 8777374583</li>
-                  <li>Surya Sekhar Dutta: +91 9830140585</li>
+                  <li>Surya Sekhar Datta: +91 9830140585</li>
                   <li>Srinjoy Sarkar: +91 9836679464</li>
                 </ul>
               </div>

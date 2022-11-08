@@ -8,6 +8,13 @@
     align-items: center;
     /* bottom: 10px; */
 }
+#guest .music Image{
+    width: 50px;
+}
+#guest .music1 .img-fluid{
+    width: 90%;
+    height: 60vh;
+}
 #guest .music1{
     position: absolute;
     z-index: -1;
