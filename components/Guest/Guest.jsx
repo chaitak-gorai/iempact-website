@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Trap from "../../public/images/aboutimg.jpeg";
-import Music from "../../public/1.svg";
-import Tabla from "../../public/2.svg";
+import Music from "../../public/1.png";
+import Tabla from "../../public/2.png";
 const Guest = () => {
   return (
     <section id="guest">
@@ -23,9 +23,10 @@ const Guest = () => {
             <div className="music1">
               <Image
                 src={Tabla}
-                // className="img-fluid "
+                className="img-fluid "
                 alt=""
                 data-aos="zoom-in"
+              
               />
             </div>
             <h1>Pandit Bickram Ghosh </h1>
@@ -54,10 +55,10 @@ const Guest = () => {
             />
           </div>
           <div className="col-lg-6 order-last order-lg-first">
-            <div className="music">
+            <div className="music1">
               <Image
                 src={Music}
-                // className="img-fluid "
+                className="img-fluid "
                 alt=""
                 data-aos="zoom-in"
               />
