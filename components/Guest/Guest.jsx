@@ -10,7 +10,7 @@ const Guest = () => {
         <header className="section-header">
           <h3>Guest Performance</h3>
         </header>
-        <div className="row">
+        <div className="row py-5">
           <div className="col-lg-6 img">
             <Image
               src={Trap}
@@ -19,7 +19,7 @@ const Guest = () => {
               data-aos="fade-right" data-aos-duration="2500"
             />
           </div>
-          <div className="col-lg-6" >
+          <div className="col-lg-6 write" >
             <div className="music1">
               <Image
                 src={Tabla}
@@ -44,7 +44,7 @@ const Guest = () => {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row pt-5">
           <div className="col-lg-6 order-first order-lg-last img">
             <Image
               src={Trap}
@@ -53,7 +53,7 @@ const Guest = () => {
               data-aos="fade-left" data-aos-duration="2500"
             />
           </div>
-          <div className="col-lg-6 order-last order-lg-first">
+          <div className="col-lg-6 order-last order-lg-first write">
             <div className="music1">
               <Image
                 src={Music}
