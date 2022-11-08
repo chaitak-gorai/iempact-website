@@ -31,7 +31,7 @@ export default function Home() {
         <Head>
           <title>IEMPACT 2k23</title>
           <meta name='description' content='IEMPACT, the Annual Cultural Fest of IEM, is back with its 32nd edition after 2 years of online lives- education, events. As the Annual Cultural Fest of IEM, Saltlake we bring to you dance, music, football, quiz, debate, art and most importantly Hope and Joy.' />
-          <link rel='icon' href='/images/IEMPACT.png' />
+          <link rel='icon' href='LOGO.png' />
           <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300;400&display=swap" rel="stylesheet"></link>
         </Head>
 
