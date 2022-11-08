@@ -1,11 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
 import ABoutIMG from "../../public/images/aboutimg.jpeg";
 import Image from "next/image";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  },[]);
   return (
     <section id="about">
-      <div className="container" data-aos="fade-up">
+      <div className="container" data-aos="zoom-in" data-aos-duration="2500">
         <header className="section-header">
           <h3>About Us</h3>
         </header>
@@ -35,7 +42,6 @@ const About = () => {
               src={ABoutIMG }
               className="img-fluid "
               alt=""
-              data-aos="zoom-in"
             />
           </div>
         </div>
