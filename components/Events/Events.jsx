@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Image from "next/image";
 import IEMPACT from "../../public/images/IEMPACT Logo.png";
 import EstMusic from '../../public/images/events/1.png'
@@ -13,9 +13,14 @@ import WstMusic from '../../public/images/events/3.png'
 import FacePainting from '../../public/images/events/10.png'
 import TreasureHunt from '../../public/images/events/11.png'
 
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Events = (event) => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  },[]);
   return (
     <>
     <section id="events">
@@ -24,7 +29,7 @@ const Events = (event) => {
           <h3>EVENTS</h3>
         </header>
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={EstMusic} className="img-fluid" alt="" />
@@ -38,7 +43,7 @@ const Events = (event) => {
             </div>
             
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={EstDance} className="img-fluid " alt="" />
@@ -52,7 +57,7 @@ const Events = (event) => {
             </div>
             
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={Quizzard} className="img-fluid " alt="" />
@@ -68,7 +73,7 @@ const Events = (event) => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={Debate} className="img-fluid " alt="" />
@@ -82,7 +87,7 @@ const Events = (event) => {
             </div>
             
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={Beatboxing} className="img-fluid " alt="" />
@@ -96,7 +101,7 @@ const Events = (event) => {
             </div>
             
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={CreativeWriting} className="img-fluid " alt="" />
@@ -110,7 +115,7 @@ const Events = (event) => {
             </div>  
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={FUTSAL} className="img-fluid " alt="" />
@@ -124,7 +129,7 @@ const Events = (event) => {
             </div>  
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={StepUp} className="img-fluid " alt="" />
@@ -138,7 +143,7 @@ const Events = (event) => {
             </div>  
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={WstMusic} className="img-fluid " alt="" />
@@ -152,7 +157,7 @@ const Events = (event) => {
             </div>  
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={FacePainting} className="img-fluid " alt="" />
@@ -166,7 +171,7 @@ const Events = (event) => {
             </div>  
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={TreasureHunt} className="img-fluid " alt="" />
