@@ -16,16 +16,16 @@ const Guest = () => {
               src={Trap}
               className="img-fluid "
               alt=""
-              data-aos="zoom-in"
+              data-aos="fade-right" data-aos-duration="2500"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6" >
             <div className="music1">
               <Image
                 src={Tabla}
                 // className="img-fluid "
                 alt=""
-                data-aos="zoom-in"
+                data-aos="zoom-in" data-aos-duration="2500"
               />
             </div>
             <h1>Pandit Bickram Ghosh </h1>
@@ -50,7 +50,7 @@ const Guest = () => {
               src={Trap}
               className="img-fluid "
               alt=""
-              data-aos="zoom-in"
+              data-aos="fade-left" data-aos-duration="2500"
             />
           </div>
           <div className="col-lg-6 order-last order-lg-first">
@@ -59,7 +59,7 @@ const Guest = () => {
                 src={Music}
                 // className="img-fluid "
                 alt=""
-                data-aos="zoom-in"
+                data-aos="zoom-in" data-aos-duration="2500"
               />
             </div>
 
