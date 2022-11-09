@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 #guest {
   position: relative;
 }
@@ -19,6 +22,16 @@
   transform: translateY(-50%);
   
 }
+#guest h1,h2{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(0, 117, 0);
+}
+#guest h2{
+  font-family: 'Dancing Script', cursive;
+  
+}
 #guest .img {
   padding: 20px;
 }
@@ -29,6 +42,8 @@
   position: relative;
 }
 #guest p {
-  font-weight: 450;
-  font-size: 16px;
+  font-weight: 480;
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px;
 }
