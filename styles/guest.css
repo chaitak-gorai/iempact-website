@@ -4,10 +4,6 @@
 #guest {
   position: relative;
 }
-#guest .music1 .img-fluid {
-  width: 100%;
-  height: 60vh;
-}
 #guest .write{
     position: relative;
 }
@@ -33,13 +29,13 @@
   
 }
 #guest .img {
-  padding: 20px;
+  padding: 10px;
 }
-#guest .img Image {
+#guest .img Image{
   width: 100%;
-  height: 100%;
+  height: 50px;
 
-  position: relative;
+  /* position: relative; */
 }
 #guest p {
   font-weight: 480;

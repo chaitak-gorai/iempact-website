@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Trap from "../../public/images/aboutimg.jpeg";
+import Trap from "../../public/logo/TRAP_LOGO.jpg";
 import Music from "../../public/1.png";
 import Tabla from "../../public/2.png";
 const Guest = () => {
@@ -48,7 +48,7 @@ const Guest = () => {
           <div className="col-lg-6 order-first order-lg-last img">
             <Image
               src={Trap}
-              className="img-fluid "
+              className="img-fluid"
               alt=""
               data-aos="fade-left"
               data-aos-duration="2500"
@@ -58,7 +58,7 @@ const Guest = () => {
             <div className="music1">
               <Image
                 src={Music}
-                className="img-fluid "
+                className="img-fluid"
                 alt=""
                 data-aos="zoom-in"
                 data-aos-duration="2500"
