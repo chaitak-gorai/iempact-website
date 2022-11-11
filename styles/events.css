@@ -38,7 +38,7 @@
   .item .text5 {
     text-align: center;
     position: absolute;
-    width: 100%;
+    width: 90%;
     top: 55%;
     opacity:0;
     transition: all 0.5s ease;
@@ -50,6 +50,9 @@
   }
   .text5 p{
      font-family: Nunito;
+     font-size: 14px;
+     text-align: justify;
+     margin: 5px;
   }
   
   .item #e5bk{
@@ -66,16 +69,18 @@
   .e5:hover .text5{
     opacity:1;
     position: absolute;
-    top: 42%;
+    top: 30%;
+    margin-left: 20px;
+    line-height: 22px;
   }
   .e5:hover #e5bk{
-    opacity:0.6;
+    opacity:0.9;
     cursor: pointer;
   }
   
   .e5:hover .line{
     position: absolute;
-    top: 68%;
+    top: 37%;
     left:30%;
     width:40%;
     height:1px;
