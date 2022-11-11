@@ -50,7 +50,7 @@
   }
   .text5 p{
      font-family: Nunito;
-     font-size: 14px;
+     font-size: 13px;
      text-align: justify;
      margin: 5px;
   }
@@ -84,4 +84,26 @@
     left:30%;
     width:40%;
     height:1px;
+  }
+  @media(max-width:468px){
+    .e5:hover .text5{
+      opacity:1;
+      position: absolute;
+      top: 7%;
+      margin-left: 20px;
+      line-height: 22px;
+    }
+    .e5:hover .line{
+      position: absolute;
+      top: 16%;
+      left:30%;
+      width:40%;
+      height:1px;
+    }
+    .text5 p{
+      font-family: Nunito;
+      font-size: 11px;
+      text-align: justify;
+      margin: 5px;
+   }
   }
