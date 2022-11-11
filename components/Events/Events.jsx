@@ -36,7 +36,7 @@ const Events = (event) => {
                 <div id="e5bk"></div>
                 <div className="text5">
                   <h3>Eastern Music</h3>
-                  <p>Event Description</p>
+                  <p>If you are the melody monarch of raagas and taans, then we have the perfect competition for you. IEMPACT presents Eastern Music, where you have the chance to let the sunray of your voice reach the dreariest corners and fill them with endless light. Come, join us and let your raagas warm the heart of the audience like spring after a long winter. May the thousand lanterns of years of riyaaz light your way forward!</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -64,7 +64,7 @@ const Events = (event) => {
                 <div id="e5bk"></div>
                 <div className="text5">
                   <h3>QUIZZARD</h3>
-                  <p>Event Description</p>
+                  <p>Quiz geeks ahoy! If answers tickle at the tip of your tongue, perhaps even before a question has been asked, then we have the perfect competition for you. IEMPACT presents Quizzard, where the sharpness of the sword of your knowledge will be tested as you fiercely battle against the best quizzers Kolkata has to offer. Come, join us as you pick the grains of sand on the endless shore of knowledge. May the pegasus of your GK take you to the moon!</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -80,7 +80,7 @@ const Events = (event) => {
                 <div id="e5bk"></div>
                 <div className="text5">
                   <h3>DEBATE</h3>
-                  <p>Event Description</p>
+                  <p>If you&apos;ve always wanted to take the stand and be the change, then we have the perfect competition for you. IEMPACT presents Debate, one of the biggest war-of-words in town. Come, join us as your words find wings and reach the highest clouds. May the iron grip of your logic and mind never falter !</p>
                 </div>
                 <div className="line inside"></div>
               </div>
@@ -150,7 +150,7 @@ const Events = (event) => {
                 <div id="e5bk"></div>
                 <div className="text5">
                   <h3>Western Music</h3>
-                  <p>Event Description</p>
+                  <p>If the sequin of your voice twinkle like the stars of the most magnificent constellation when you sing Western genres, then we have the perfect competition for you. IEMPACT presents Western music, where you have the chance to be crowned the nightingale of one of the biggest voice-wars in town. Come, join us as your passion and style take the centre stage. May your voice dazzle like diamonds and reach the hearts of many!</p>
                 </div>
                 <div className="line inside"></div>
               </div>
