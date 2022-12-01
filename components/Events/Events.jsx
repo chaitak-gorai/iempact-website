@@ -11,7 +11,7 @@ import FUTSAL from '../../public/images/events/7.png'
 import StepUp from '../../public/images/events/4.png'
 import WstMusic from '../../public/images/events/3.png'
 import FacePainting from '../../public/images/events/10.png'
-import TreasureHunt from '../../public/images/events/11.png'
+import TreasureHunt from '../../public/images/events/11.jpg'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,6 +29,20 @@ const Events = (event) => {
           <h3>EVENTS</h3>
         </header>
         <div className="row">
+        <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
+            <div id="content">
+              <div className="item e5">
+                <Image src={TreasureHunt} className="img-fluid " alt="" />
+                <div id="e5bk"></div>
+                <div className="text5">
+                  <h3>Treasure Hunt</h3>
+                  <p>Event Description</p>
+                </div>
+                <div className="line inside"></div>
+              </div>
+            </div>  
+          </div>
+          
           <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
@@ -71,8 +85,8 @@ const Events = (event) => {
             </div>
             
           </div>
-        </div>
-        <div className="row">
+        {/* </div> */}
+        {/* <div className="row"> */}
           <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
@@ -171,7 +185,7 @@ const Events = (event) => {
             </div>  
           </div>
 
-          <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
+          {/* <div className="col-lg-4" data-aos="flip-left" data-aos-duration="2000">
             <div id="content">
               <div className="item e5">
                 <Image src={TreasureHunt} className="img-fluid " alt="" />
@@ -183,7 +197,7 @@ const Events = (event) => {
                 <div className="line inside"></div>
               </div>
             </div>  
-          </div>
+          </div> */}
 
 
         </div>
