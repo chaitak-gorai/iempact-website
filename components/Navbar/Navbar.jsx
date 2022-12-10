@@ -5,15 +5,38 @@ import Link from "next/link";
 import IEMlogo from "../../public/logo/IEM_Logo.png";
 import Image from "next/image";
 
-import React from "react";
+import React, { useState } from "react";
+import { useEffect } from "react";
 
 const TopNavbar = () => {
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 100){
+      
+       setColorchange(true);
+     
+     }
+     else{
+       setColorchange(false);
+   
+     }
+  };
+
+useEffect(()=>{
+  window.addEventListener('scroll', changeNavbarColor);
+ 
+  return () => window.removeEventListener("scroll", changeNavbarColor);
+  
+},)
+
   return (
     <Navbar
       collapseOnSelect
       expand="lg"
-      className="navabar"
-      variant="light"
+      className={
+        colorChange ? 'navbar navcolorChange' : 'navbar'
+      }
+      variant={colorChange ? "light" : "dark"}
       fixed="top"
     >
       <Container>
@@ -25,7 +48,7 @@ const TopNavbar = () => {
               height="60"
               className="d-inline-block align-top"
             />
-            <img
+            {/* <img
               alt=""
               src={""}
               height="60"
@@ -38,7 +61,7 @@ const TopNavbar = () => {
               height="60"
               margin="0px  10px"
               className="d-inline-block align-top logo"
-            />
+            /> */}
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
