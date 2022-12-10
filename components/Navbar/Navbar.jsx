@@ -72,7 +72,7 @@ useEffect(()=>{
             <Nav.Link href="#hero">Home</Nav.Link>
             <Nav.Link href="#about">Discover More</Nav.Link>
             <Nav.Link href="#partners">Our Sponsors</Nav.Link>
-            <Nav.Link href="/">Rule Book</Nav.Link>
+            <Nav.Link target="_blank" href="https://drive.google.com/file/d/1Yyp1cImKSxcvvttIoWTMSkxqOpJtZ3s7/view?usp=share_link">Rule Book</Nav.Link>
             <Nav>
               <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
                 Register Now
