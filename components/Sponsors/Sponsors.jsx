@@ -39,7 +39,7 @@ const Sponsors = () => {
                     slidesPerView: 3,
                   },
                   1024: {
-                      slidesPerView: 6,
+                      slidesPerView: 5,
                     },
                 }}
                 loop={true}
@@ -59,7 +59,7 @@ const Sponsors = () => {
                 <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
                 <SwiperSlide><div className="imgcenter"><Image src={Banyan} className="img-fluid" alt="" /></div></SwiperSlide>
                 <SwiperSlide><div className="imgcenter"><Image src={Cmirror} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={Decathlon} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter1"><Image src={Decathlon} className="img-fluid" alt="" /></div></SwiperSlide>
                 {/* <SwiperSlide><div className="imgcenter"><Image src={Hibao} className="img-fluid" alt="" /></div></SwiperSlide>
                 <SwiperSlide><div className="imgcenter"><Image src={S2016} className="img-fluid" alt="" /></div></SwiperSlide> */}
                 <SwiperSlide><div className="imgcenter"><Image src={Peh} className="img-fluid" alt="" /></div></SwiperSlide>
