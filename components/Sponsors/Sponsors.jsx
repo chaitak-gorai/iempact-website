@@ -8,7 +8,12 @@ import "swiper/css/pagination";
 import Image from 'next/image';
 
 import GDSCIEM from '../../public/images/sponsor/gdsc-iem.png'
-
+import Banyan from '../../public/images/sponsor/banyantree.png'
+import Cmirror from '../../public/images/sponsor/CMirror.png'
+import Decathlon from '../../public/images/sponsor/Decathlon.png'
+// import Hibao from '../../public/images/sponsor/hibao.jfif'
+// import S2016 from '../../public/images/sponsor/S2016.jfif'
+import Peh from '../../public/images/sponsor/peh.jpg'
 const Sponsors = () => {
   return (
     <section id="clients">
@@ -40,7 +45,7 @@ const Sponsors = () => {
                 loop={true}
                 loopFillGroupWithBlank={true}
                 autoplay={{
-                  delay: 1500,
+                  delay: 2000,
                   disableOnInteraction: false,
                   reverseDirection: true,
                 }}
@@ -52,19 +57,13 @@ const Sponsors = () => {
                 modules={[Pagination,Autoplay]}
               >
                 <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
-                <SwiperSlide><div className="imgcenter"><Image src={GDSCIEM} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={Banyan} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={Cmirror} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={Decathlon} className="img-fluid" alt="" /></div></SwiperSlide>
+                {/* <SwiperSlide><div className="imgcenter"><Image src={Hibao} className="img-fluid" alt="" /></div></SwiperSlide>
+                <SwiperSlide><div className="imgcenter"><Image src={S2016} className="img-fluid" alt="" /></div></SwiperSlide> */}
+                <SwiperSlide><div className="imgcenter"><Image src={Peh} className="img-fluid" alt="" /></div></SwiperSlide>
+                
 
 
 
