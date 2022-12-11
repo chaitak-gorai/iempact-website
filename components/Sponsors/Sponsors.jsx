@@ -19,7 +19,7 @@ const Sponsors = () => {
     <section id="clients">
       <div className="container" data-aos="zoom-in">
         <header className="section-header">
-          <h3>Our Sponsors</h3>
+          <h3>Our Partners</h3>
         </header>
 
         <div className="clients-slider swiper colaboration">

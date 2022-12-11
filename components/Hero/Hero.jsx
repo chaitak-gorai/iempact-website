@@ -58,7 +58,7 @@ const Hero = () => {
                     <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
                       Register Now
                     </a>
-                    <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
+                    <a className="btn-get-started scrollto animate__animated animate__fadeInUp" href="#about">
                       Discover More
                     </a>
                     <a className="btn-get-started scrollto animate__animated animate__fadeInUp" href="https://drive.google.com/file/d/1Yyp1cImKSxcvvttIoWTMSkxqOpJtZ3s7/view?usp=share_link" rel="noreferrer" target="_blank">
