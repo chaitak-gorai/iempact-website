@@ -69,16 +69,17 @@ useEffect(()=>{
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav style={{ fontWeight: "700" }}>
-            <Nav.Link href="#hero">Home</Nav.Link>
-            <Nav.Link href="#about">Discover More</Nav.Link>
-            <Nav.Link href="#clients">Our Partners</Nav.Link>
+            <Nav.Link href="/#hero">Home</Nav.Link>
+            <Nav.Link href="/#about">Discover More</Nav.Link>
+            <Nav.Link href="/#clients">Our Partners</Nav.Link>
             <Nav.Link target="_blank" href="https://drive.google.com/file/d/1Yyp1cImKSxcvvttIoWTMSkxqOpJtZ3s7/view?usp=share_link">Rule Book</Nav.Link>
+            <Nav.Link href='/team'>Our Teams</Nav.Link>
             <Nav>
               <a className="btn-get-started scrollto animate__animated animate__fadeInUp">
                 Register Now
               </a>
             </Nav>
-            {/* <Nav.Link href='#contact'>Contact</Nav.Link> */}
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -16,10 +16,10 @@ const Footer = () => {
   return (
     <>
       <footer id="footer">
-        <div class="footer-top">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-md-6 footer-contact">
+        <div className="footer-top">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4 col-md-6 footer-contact">
                 <div className="abc">
                 <Image src={Logo} className="img-fluid" alt="" />
                 </div>
