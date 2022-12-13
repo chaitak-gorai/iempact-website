@@ -2,10 +2,8 @@ import React from "react";
 import {
   Instagram,
   Facebook,
-  Twitter,
-  Envelope,
-  Phone,
   Linkedin,
+  Github
 } from "react-bootstrap-icons";
 import { BsYoutube } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
