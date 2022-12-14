@@ -1,7 +1,7 @@
 export const members = [
     {
       id: 1,
-      image: "/../public/team/fc-1.jpg",
+      image: "/team/fc-1.jpg",
       name: "Prof. Malay Gangopadhyaya",
       designation: "Faculty Coordinators",
     },
@@ -31,7 +31,7 @@ export const members = [
     },
     {
       id: 6,
-      image: "/../public/team/souvik.jpg",
+      image: "/team/souvik.jpg",
       name: "Souvik Bhattacharyya",
       designation: "Sponorship",
     },
@@ -55,7 +55,7 @@ export const members = [
     },
     {
       id: 10,
-      image: "/../public/team/shivam.jpg",
+      image: "/team/shivam.jpg",
       name: "Shivam Bhowmick",
       designation: "Graphics",
     },
@@ -67,37 +67,37 @@ export const members = [
     },
     {
       id: 12,
-      image: "/../public/team/sagnik.jpg",
+      image: "/team/sagnik.jpg",
       name: "Sagnik Dutta",
       designation: "Food",
     },
     {
       id: 13,
-      image: "/../public/team/srishti.jpg",
+      image: "/team/srishti.jpg",
       name: "Srishti Dey",
       designation: "Content",
     },
     {
       id: 14,
-      image: "/../public/team/aritri.jpg",
+      image: "/team/aritri.jpg",
       name: "Aritri Chowdhury",
       designation: "Content",
     },
     {
       id: 15,
-      image: "/../public/team/swarnali.jpg",
+      image: "/team/swarnali.jpg",
       name: "Swarnali Mukherjee",
       designation: "Content",
     },
     {
       id: 16,
-      image: "/../public/team/surya.jpg",
+      image: "/team/surya.jpg",
       name: "Surya Sekhar Dutta",
       designation: "Technical",
     },
     {
       id: 17,
-      image: "/../public/team/swapnil.jpg",
+      image: "/team/swapnil.jpg",
       name: "Swapnil Roy",
       designation: "Technical",
     },
