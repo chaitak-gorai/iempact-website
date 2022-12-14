@@ -10,7 +10,7 @@ const TeamMember = ({ image, name, designation}) => {
   return (
     <div className="team-member col-lg-3 col-md-6">
       <div className="team-member-image">
-        <Image src={image || NoAvtar} alt={name} />
+        <Image src={image || NoAvtar} alt={name} width={180} height={180}/>
       </div>
       <div className="info">
       <div className="team-member-name"><h2>{name}</h2></div>
