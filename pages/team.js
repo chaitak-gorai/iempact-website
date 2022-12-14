@@ -26,7 +26,15 @@ const team = () => {
           <h1>Our Team</h1>
         </header>
         <div className="row">
-          {members.map((members) => {
+          {members.slice(0,2).map((members) => {
+            return (
+            <TeamMember key={members.id} image={members.image} name={members.name} designation={members.designation}/>
+            );
+
+          })}
+        </div>
+        <div className="row">
+          {members.slice(2,members.length).map((members) => {
             return (
             <TeamMember key={members.id} image={members.image} name={members.name} designation={members.designation}/>
             );
