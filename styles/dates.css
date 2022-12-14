@@ -1,23 +1,23 @@
-#call-to-action {
+#dates {
     /* background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-      url(../public/images/call-to-action-bg.jpg) fixed center center; */
+      url(../public/images/dates-bg.jpg) fixed center center; */
       background: rgb(255,153,51);
       background: linear-gradient(127deg, rgba(255,153,51,1) 25%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 75%);
     background-size: cover;
     padding: 60px 0;
   }
   
-  #call-to-action h3 {
+  #dates h3 {
     color: rgb(32, 102, 222);
     font-size: 28px;
     font-weight: 700;
   }
   
-  #call-to-action p {
+  #dates p {
     color: #fff;
   }
   
-  #call-to-action .cta-btn {
+  #dates .cta-btn {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -32,7 +32,7 @@
     color: #fff;
   }
   
-  #call-to-action .cta-btn:hover {
+  #dates .cta-btn:hover {
     background: #18d26e;
     border: 2px solid #18d26e;
   }
